@@ -22,8 +22,6 @@ Start using the components or try it on Snack
 
 
 ## Components included:
-
-- [Get Started](#get-started)
   - [Typography](#typography)
   - [Text Colors](#text-colors)
   - [Background Colors](#background-colors)
