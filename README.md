@@ -1,109 +1,185 @@
-# react-native-StyleSheet
-
-<p align="center">
-  <a href="https://react-native-training.github.io/react-native-elements/">
-    <img alt="react-native-elements" src="https://user-images.githubusercontent.com/5962998/37248835-ce3dad4a-24b1-11e8-9c4b-b058c5a5e1e9.png" width="450">
-  </a>
-</p>
 
 <h3 align="center">
-  React Native Elements
+  React Native StyleSheet
 </h3>
 
 <p align="center">
-  Cross Platform <a href="https://facebook.github.io/react-native/">React Native</a> UI Toolkit
+  This style sheet help you create new
+  <a href="#">react-native</a> app design
 </p>
-
-<p align="center">
-  <a href="https://www.npmjs.com/package/react-native-elements"><img src="https://img.shields.io/npm/v/react-native-elements.svg?style=flat-square"></a>
-  <a href="https://www.npmjs.com/package/react-native-elements"><img src="https://img.shields.io/npm/dm/react-native-elements.svg?style=flat-square"></a>
-  <a href="https://travis-ci.org/react-native-training/react-native-elements"><img src="https://img.shields.io/travis/react-native-training/react-native-elements/master.svg?style=flat-square"></a>
-  <a href="https://reactnativetraining.herokuapp.com/"><img src="https://reactnativetraining.herokuapp.com/badge.svg"></a>
-</p>
-
-<p align="center">
-  <a href="#backers"><img src="https://opencollective.com/react-native-elements/backers/badge.svg"></a>
-  <a href="#sponsors"><img src="https://opencollective.com/react-native-elements/sponsors/badge.svg"></a>
-  <a href="https://codecov.io/gh/react-native-training/react-native-elements"><img src="https://codecov.io/gh/react-native-training/react-native-elements/coverage.svg"></a>
-  <a href="https://github.com/prettier/prettier"><img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg"></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
-</p>
-
 <br />
 
-![React Native Elements UI Toolkit](https://user-images.githubusercontent.com/5962998/37248832-a7060286-24b1-11e8-94a8-847ab6ded4ec.png)
-
-## Get Started
-
-### Installation
+<!-- ### Installation
 
 Follow
 [these instructions](https://react-native-training.github.io/react-native-elements/docs/getting_started.html)
-to install React Native Elements!
-
+to install React Native Elements! -->
+<!-- 
 ### Usage
 
 Start using the components or try it on Snack
-[here](https://snack.expo.io/rJu6gJfBZ).
+[here](https://snack.expo.io/rJu6gJfBZ). -->
 
-```js
-import { Button } from 'react-native-elements';
-
-<Button />;
-```
 
 ## Components included:
 
-- [x] [Avatar](https://react-native-training.github.io/react-native-elements/docs/avatar.html)
-- [x] [Badge](https://react-native-training.github.io/react-native-elements/docs/badge.html)
-- [x] [Button](https://react-native-training.github.io/react-native-elements/docs/button.html)
-- [x] [ButtonGroup](https://react-native-training.github.io/react-native-elements/docs/button_group.html)
-- [x] [Card](https://react-native-training.github.io/react-native-elements/docs/card.html)
-- [x] [CheckBox](https://react-native-training.github.io/react-native-elements/docs/checkbox.html)
-- [x] [Divider](https://react-native-training.github.io/react-native-elements/docs/divider.html)
-- [x] [Header](https://react-native-training.github.io/react-native-elements/docs/header.html)
-- [x] [HTML style headings](https://react-native-training.github.io/react-native-elements/docs/text.html)
-- [x] [Icon](https://react-native-training.github.io/react-native-elements/docs/icon.html)
-- [x] [Image](https://react-native-training.github.io/react-native-elements/docs/image.html)
-- [x] [Input](https://react-native-training.github.io/react-native-elements/docs/input.html)
-- [x] [ListItem](https://react-native-training.github.io/react-native-elements/docs/listitem.html)
-- [x] [Overlay](https://react-native-training.github.io/react-native-elements/docs/overlay.html)
-- [x] [Pricing](https://react-native-training.github.io/react-native-elements/docs/pricing.html)
-- [x] [Rating](https://react-native-training.github.io/react-native-elements/docs/rating.html)
-- [x] [SearchBar](https://react-native-training.github.io/react-native-elements/docs/searchbar.html)
-- [x] [Slider](https://react-native-training.github.io/react-native-elements/docs/slider.html)
-- [x] [Social Icons / Social Icon Buttons](https://react-native-training.github.io/react-native-elements/docs/social_icon.html)
-- [x] [Tile](https://react-native-training.github.io/react-native-elements/docs/tile.html)
-- [x] [Tooltip](https://react-native-training.github.io/react-native-elements/docs/tooltip.html)
+- [x] [Typography](#)
+- [x] [Text Colors](#)
+- [x] [BG Colors](#)
+- [x] [Outline/Border Colors](#)
+- [x] [Grid](#)
+- [x] [Buttons](#)
+- [x] [Button Colors](#)
+- [x] [Avaters](#)
+- [x] [Box and Card's](#)
+- [x] [Product Cards](#)
+- [x] [Content Slider](#)
 
-## RNE Ecosystem:
 
-React Native Elements also serves as a **platform** that connects **small
-teams/individuals** that needs help developing their RN app with **open source
-contributors** that are willing to **build complex UI screens & animated
-interactions** for 💰💰💰.
 
-Here are some of the screens that our developers have created so far:
+## Pre Requirements:
 
-<div style="display: flex; flex-direction: row; margin-bottom: 50px">
-  <img src="https://user-images.githubusercontent.com/7840686/32702785-b1d9114e-c7a0-11e7-9999-6c6a00d432ec.gif" width="280" />
-  <img src="https://user-images.githubusercontent.com/7840686/32702789-b6bbdce6-c7a0-11e7-8034-8144274fbdae.gif" width="280" />
-  <img src="https://user-images.githubusercontent.com/7840686/32702791-b947eedc-c7a0-11e7-8e8c-7dff1bd80564.gif" width="280" />
-</div>
-<br /><br />
+To use this styles you need to install some other packages. This packages helps you to make a beautiful design.
 
-If this sounds interesting and you would like to participate, kindly open a
-**new issue with the design & spec of the UI screen** that you need to be
-developed. One of our developers will respond to your issue with an estimate of
-time & cost.
+  - [npm install react-native-vector-icons --save](https://github.com/oblador/react-native-vector-icons)
 
-It's built on top of **RNE & Open Collective**. If you have any feedback or
-would like to know more details about this kindly contact
-**[Monte Thakkar](https://github.com/Monte9)**.
 
-## React Native Web support
 
-As a cross platform UI Toolkit, you can now use RNE on the web & share your codebase between your React Native + React web apps. RNE components are rendered perfectly on browser. You can achieve this to target iOS, Android and Web by collaborating RNE and [React Native for Web](https://github.com/necolas/react-native-web).
+## My File Structure
+  Before start using this package, You need to know my package file structure, for easily find any file or components.
+
+  * [packageFolder]()
+    * [src]()
+      * [assets]()
+        * [images]()
+        * [styles]()
+          * [styles.js]()
+      * [components]()
+        * [Avatars.js]()
+        * [BgColors.js]()
+        * [Box&Cards.js]()
+        * [Buttons.js]()
+        * [ContentSlider.js]()
+        * [Grid.js]()
+        * [OutlineColors.js]()
+        * [ProductCards.js]()
+        * [TextColors.js]()
+        * [Typography.js]()
+      * [includes]()
+      * [pages]()
+        * [index.js]()
+      * [README.md]()
+
+
+
+# Get Started
+
+## Typography
+
+Example Code:
+
+```js  
+import React, {Component} from 'react';
+import {
+  StyleSheet, 
+  Text, 
+  View,
+  ScrollView,
+} from 'react-native';
+import css from '../assets/styles/styles'
+
+export default class Typography extends Component{
+  render() {
+    return (
+      <ScrollView
+        showsVerticalScrollIndicator={false}>
+          <View style={css.container_fluid}>
+            <Text style={css.h1}>Heading 1 </Text>
+            <Text style={css.h2}>Heading 2 </Text>
+            <Text style={css.h3}>Heading 3 </Text>
+            <Text style={css.h4}>Heading 4 </Text>
+            <Text style={css.h5}>Heading 5 </Text>
+            <Text style={css.h6}>Heading 6 </Text>
+
+            <Text style={css.p1}>Paragraph 1 </Text>
+            <Text style={css.p2}>Paragraph 2 </Text>
+            <Text style={css.p3}>Paragraph 3 </Text>
+            <Text style={css.p4}>Paragraph 4 </Text>
+            <Text style={css.p5}>Paragraph 5 </Text>
+
+            <Text style={css.small}>Text Small </Text>
+          </View>
+      </ScrollView>
+    );
+  }
+}
+```
+
+Example:
+<br>
+
+<p align="center">
+  <a href="#" target="_blank"><img src="docImages/1.png" width="200"></a>
+</p>
+
+
+## Text Colors
+
+Example Code:
+
+```js  
+
+import React, {Component} from 'react';
+import {
+  StyleSheet, 
+  Text, 
+  View,
+  ScrollView,
+} from 'react-native';
+import css from '../assets/styles/styles'
+
+export default class TextColors extends Component{
+  render() {
+    return (
+      <ScrollView
+        showsVerticalScrollIndicator={false}>
+          <View style={css.container_fluid}>
+          <Text style={[css.h6,css.text_default]}> text_default </Text>
+              <Text style={[css.h6,css.text_primary]}> text_primary </Text>
+              <Text style={[css.h6,css.text_success]}> text_success </Text>
+              <Text style={[css.h6,css.text_info]}> text_info </Text>
+              <Text style={[css.h6,css.text_warning]}> text_warning </Text>
+              <Text style={[css.h6,css.text_danger]}> text_danger </Text>
+              <Text style={[css.h6,css.text_red]}> text_red </Text>
+              <Text style={[css.h6,css.text_pink]}> text_pink </Text>
+              <Text style={[css.h6,css.text_purple]}> text_purple </Text>
+              <Text style={[css.h6,css.text_deep_purple]}> text_deep_purple </Text>
+              <Text style={[css.h6,css.text_indigo]}> text_indigo </Text>
+              <Text style={[css.h6,css.text_blue]}> text_blue </Text>
+              <Text style={[css.h6,css.text_cyan]}> text_cyan </Text>
+              <Text style={[css.h6,css.text_teal]}> text_teal </Text>
+              <Text style={[css.h6,css.text_green]}> text_green </Text>
+              <Text style={[css.h6,css.text_light_green]}> text_light_green </Text>
+              <Text style={[css.h6,css.text_yellow]}> text_yellow </Text>
+              <Text style={[css.h6,css.text_orange]}> text_orange </Text>
+              <Text style={[css.h6,css.text_deep_orange]}> text_deep_orange </Text>
+              <Text style={[css.h6,css.text_brown]}> text_brown </Text>
+              <Text style={[css.h6,css.text_blue_grey]}> text_blue_grey </Text>
+          </View>
+      </ScrollView>
+    );
+  }
+}
+
+```
+
+Example:
+<br>
+
+<p align="center">
+  <a href="#" target="_blank"><img src="docImages/2.png" width="200"></a>
+</p>
+
 
 Click [here](https://react-native-training.github.io/react-native-elements/blog/2018/12/13/react-native-web.html) for a full walkthrough using React Native Elements + React Native Web.
 
